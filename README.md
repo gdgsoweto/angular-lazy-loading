@@ -32,3 +32,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Add a css adding line in your scripts array under angular.json file
 > "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+# Component Lazy Loading - Ivy Engine
+https://indepth.dev/lazy-loading-angular-modules-with-ivy
