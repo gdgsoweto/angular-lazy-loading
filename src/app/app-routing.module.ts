@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'auth',
     loadChildren: () => import('./pages/auth/auth.module').then((m) => m.AuthModule)
+  },
+  {
+    path: 'payment-methods',
+    loadChildren: () => import('./pages/payment-methods/payment-methods.module').then((m) => m.PaymentMethodsModule)
   }
 ];
 
